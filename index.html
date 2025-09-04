@@ -21,8 +21,8 @@
     <div class="w-full bg-white shadow-md">
         <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
             <!-- Navbar Brand with Icon -->
-            <a class="text-2xl font-bold text-gray-900 flex items-center" href="#">
-                <img src="webicon.png" alt="Jan Ogieglo's personal icon" class="w-8 h-8 rounded-full mr-2">
+            <a class="text-2xl font-bold text-gray-900 flex items-center" href="index.html">
+                <img src="webicon.png" onerror="this.onerror=null; this.src='https://placehold.co/64x64/292524/fff?text=JO';" alt="Jan Ogieglo's personal icon" class="w-8 h-8 rounded-full mr-2">
                 Jan Ogieglo
             </a>
             
@@ -35,29 +35,37 @@
 
             <!-- Desktop Menu -->
             <ul class="hidden md:flex space-x-6">
-                <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="/projects/projects.html">Projects</a></li>
-                <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="/aboutme/aboutme.html">About Me</a></li>
-                <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="/cert/cert.html">Certifications</a></li>
-                <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="/aboutme/aboutme.html#work-experience">Work Experience</a></li>
-                <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="/resume/resume.html">Resume</a></li>
+                <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="projects/projects.html">Projects</a></li>
+                <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="aboutme/aboutme.html">About Me</a></li>
+                <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="cert/cert.html">Certifications</a></li>
+                <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="aboutme/aboutme.html#work-experience">Work Experience</a></li>
+                <li><a class="text-red-500 hover:text-gray-900 font-medium" href="https://www.youtube.com/@janogieglo8" target="_blank">YouTube</a></li>
+                <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="resume/resume.html">Resume</a></li>
             </ul>
         </nav>
         
         <!-- Mobile Dropdown Menu (hidden by default) -->
         <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
             <ul class="py-2 px-4">
-                <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="/projects/projects.html">Projects</a></li>
-                <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="/aboutme/aboutme.html">About Me</a></li>
-                <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="/cert/cert.html">Certifications</a></li>
-                <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="/aboutme/aboutme.html#work-experience">Work Experience</a></li>
-                <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="/resume/resume.html#">Resume</a></li>
+                <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="projects/projects.html">Projects</a></li>
+                <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="aboutme/aboutme.html">About Me</a></li>
+                <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="cert/cert.html">Certifications</a></li>
+                <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="aboutme/aboutme.html#work-experience">Work Experience</a></li>
+                <li><a class="block py-2 text-red-500 hover:bg-gray-100 rounded-lg" href="https://www.youtube.com/@janogieglo8" target="_blank">YouTube</a></li>
+                <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="resume/resume.html">Resume</a></li>
             </ul>
         </div>
     </div>
 
-     <!-- Main Content Section -->
+    <!-- Main Content Section -->
     <main class="flex-grow flex items-center justify-center p-8 bg-gray-800 text-white text-center">
         <div class="space-y-8">
+            <!-- Profile Picture and Name -->
+            <div class="flex flex-col items-center">
+                <img src="Janek.png" onerror="this.onerror=null; this.src='https://placehold.co/128x128/292524/fff?text=JO';" alt="Jan Ogieglo's profile picture" class="w-24 h-24 md:w-32 md:h-32 rounded-full mb-4 shadow-lg">
+                <h2 class="text-3xl md:text-4xl font-bold text-red-500">Jan Ogiegło</h2>
+            </div>
+            
             <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight">Welcome to My Page!</h1>
             
             <!-- Clickable Squares Container -->
@@ -78,12 +86,22 @@
                     Resume
                 </a>
             </div>
+            
+            <!-- YouTube Link -->
+            <div class="mt-8">
+                <a href="https://www.youtube.com/@janogieglo8" target="_blank" class="inline-flex items-center space-x-2 text-red-500 hover:text-white transition-colors font-semibold">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path d="M11.9997 0.170654C4.85871 0.170654 0.052002 4.97736 0.052002 12.1183C0.052002 19.2593 4.85871 24.066 11.9997 24.066C19.1407 24.066 23.9474 19.2593 23.9474 12.1183C23.9474 4.97736 19.1407 0.170654 11.9997 0.170654ZM16.3533 12.1183L9.7766 16.2774C9.44497 16.4851 9.03975 16.332 9.03975 15.9329V8.30386C9.03975 7.90483 9.44497 7.75168 9.7766 7.95939L16.3533 12.1183Z" />
+                    </svg>
+                    <span>Visit my YouTube channel</span>
+                </a>
+            </div>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="w-full bg-white shadow-md py-4 text-center">
-        <p class="text-gray-600">© 2025 Jan Ogiegło</p>
+    <footer class="w-full bg-white shadow-md py-4 text-center mt-auto">
+        <p class="text-gray-600">© 2024 Jan Ogiegło</p>
     </footer>
 
     <script>

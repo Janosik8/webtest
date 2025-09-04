@@ -39,6 +39,7 @@
                 <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="../aboutme/aboutme.html">About Me</a></li>
                 <li><a class="text-gray-900 font-bold" href="cert.html">Certifications</a></li>
                 <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="../aboutme/aboutme.html#work-experience">Work Experience</a></li>
+                <li><a class="text-red-500 hover:text-gray-900 font-medium" href="https://www.youtube.com/@janogieglo8" target="_blank">YouTube</a></li>
                 <li><a class="text-gray-600 hover:text-gray-900 font-medium" href="../resume/resume.html">Resume</a></li>
             </ul>
         </nav>
@@ -50,6 +51,7 @@
                 <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="../aboutme/aboutme.html">About Me</a></li>
                 <li><a class="block py-2 text-gray-900 hover:bg-gray-100 rounded-lg font-bold" href="cert.html">Certifications</a></li>
                 <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="../aboutme/aboutme.html#work-experience">Work Experience</a></li>
+                <li><a class="block py-2 text-red-500 hover:bg-gray-100 rounded-lg" href="https://www.youtube.com/@janogieglo8" target="_blank">YouTube</a></li>
                 <li><a class="block py-2 text-gray-600 hover:bg-gray-100 rounded-lg" href="../resume/resume.html">Resume</a></li>
             </ul>
         </div>
@@ -63,33 +65,56 @@
             <!-- Certifications Section -->
             <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
                 <h2 class="text-4xl font-bold mb-4 text-gray-900">Certifications</h2>
-                <div class="flex items-center space-x-4 mb-4">
-                    <img src="https://placehold.co/64x64/292524/fff?text=CCNA" alt="CCNA Logo" class="w-16 h-16 rounded-full">
-                    <div>
+                <div class="flex items-start space-x-4 mb-4">
+                    <img src="ccna.jpg" alt="CCNA Logo" class="w-16 h-16 rounded-full">
+                    <div class="flex-grow">
                         <h3 class="text-2xl font-semibold">Cisco Certified Network Associate (CCNA)</h3>
-                        <p class="text-gray-600">Issued by: Cisco</p>
+                        <p class="text-gray-600 mb-2">Issued by: Cisco</p>
+                        <!-- Added list of technologies for the CCNA certification -->
+                        <ul class="list-disc list-inside text-gray-600 mb-2 pl-4">
+                            <li><strong>Network fundamentals:</strong> TCP/IP, OSI model, IP addressing (IPv4 & IPv6).</li>
+                            <li><strong>Network access:</strong> VLANs, Trunking, Spanning Tree Protocol (STP).</li>
+                            <li><strong>IP connectivity:</strong> Routing protocols (OSPF), Static routing.</li>
+                            <li><strong>IP services:</strong> DHCP, NAT, First Hop Redundancy Protocols (FHRP).</li>
+                            <li><strong>Security fundamentals:</strong> Access Control Lists (ACLs), Port security.</li>
+                            <li><strong>Automation & Programmability:</strong> REST APIs, JSON.</li>
+                        </ul>
+                        <a href="ccna_cert.pdf" download class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow transition duration-200 ease-in-out transform hover:scale-105">
+                            Download Certificate
+                        </a>
                     </div>
                 </div>
                 <div class="border-t pt-4 border-gray-200">
-                    <p class="text-gray-600 text-base">
-                        Tutaj możesz opisać szczegóły swoich certyfikatów, takie jak umiejętności, które potwierdzają.
-                    </p>
+                </div>
+
+                <div class="flex items-start space-x-4 mb-4">
+                    <img src="nokia.svg" alt="nokiacert" class="w-16 h-16 rounded-full">
+                    <div class="flex-grow">
+                        <h3 class="text-2xl font-semibold">Nokia Digital Signal Processing</h3>
+                        <p class="text-gray-600 mb-2">
+                           Issued by: Nokia. This hands-on workshop covered digital signal processing, including the use of Discrete Fourier Transform (DFT) in OFDM modulation, which is a key scheme for 5G technology. The course was based on 50 practical scripts using tools like Python, NumPy, and Anaconda.
+                        </p>
+                        <a href="nokia_cert.jpg" download class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow transition duration-200 ease-in-out transform hover:scale-105">
+                            Download Certificate
+                        </a>
+                    </div>
                 </div>
             </div>
-
             <!-- Education Section -->
             <div class="bg-white rounded-lg shadow-lg p-8">
                 <h2 class="text-4xl font-bold mb-4 text-gray-900">Education</h2>
                 <div class="flex items-center space-x-4 mb-4">
-                    <img src="https://placehold.co/64x64/292524/fff?text=AGH" alt="AGH University Logo" class="w-16 h-16 rounded-full">
+                    <!-- Replaced `agh.png` with a placeholder image. If you upload agh.png, you can change this back. -->
+                    <img src="agh.png" alt="AGH University Logo" class="w-16 h-16 rounded-full">
                     <div>
                         <h3 class="text-2xl font-semibold">AGH University of Science and Technology</h3>
-                        <p class="text-gray-600">Faculty/Major | Year of Graduation</p>
+                        <p class="text-gray-600">Faculty of Computer Science, Electronics and Telecomunication</p>
+                        <p class="text-gray-600">Expected Graduation: <strong>February 2027</strong></p>
                     </div>
                 </div>
                 <div class="border-t pt-4 border-gray-200">
                     <p class="text-gray-600 text-base">
-                        Użyj tej sekcji, aby opisać swoje wykształcenie. Możesz podać informacje o kierunku studiów, specjalizacji i osiągnięciach.
+                        I am an Information and Communications Technology <strong>(ICT)</strong> student pursuing a Bachelor's degree. My coursework has provided a solid foundation in network design, administration, and security, complementing my practical experience with Cisco and other network technologies.
                     </p>
                 </div>
             </div>
@@ -98,7 +123,7 @@
 
     <!-- Footer -->
     <footer class="w-full bg-white shadow-md py-4 text-center mt-auto">
-        <p class="text-gray-600">© 2025 Jan Ogiegło</p>
+        <p class="text-gray-600">© 2025 Jan Ogieglo</p>
     </footer>
 
     <script>
